@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+             Console.WriteLine("Welcome to My Carpet Wshing Shop!");
+             Console.WriteLine("*************************");
+            
             Console.WriteLine("How Many small Carpet required?");
             int SmallCarpet = Convert.ToInt32(Console.ReadLine());
             int Small = 25;
@@ -25,7 +28,8 @@
             Console.WriteLine($"Your Tax:{Tax}");
             Console.WriteLine("*************************************");
             Console.WriteLine($"Your Total After Adding Tax: {Total1 + Total2 + Tax}");
-
+            Console.WriteLine("*****************************");
+            Console.WriteLine("This estimate is valid for 30 days\r\n");
             
                 }
     }
